@@ -17,7 +17,7 @@ First commit: **2026-06-04 16:45 UTC.**
 
 **Role in UniCORE:** Telephony substrate — UniCORE.GVB substrate-services consume Asterisk to deliver enterprise voice communications on SaaS deployments.
 
-**Deployment shape:** This is the **SaaS-shape** member of the family. It tracks the same upstream codebase as [`UniCORE.Asterisk`](https://github.com/bryanunitek/UniCORE.Asterisk) (on-prem shape) but carries SaaS-specific configuration, multi-tenant isolation patterns, and cloud-native deployment artefacts.
+**Deployment shape:** This is the **SaaS-shape** member of the family. It tracks the same upstream codebase as [`UniCORE.Asterisk`](https://git.unitek-systems.com/UniCORE/UniCORE.Asterisk) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE.Asterisk)) (on-prem shape) but carries SaaS-specific configuration, multi-tenant isolation patterns, and cloud-native deployment artefacts.
 
 ---
 
@@ -37,7 +37,7 @@ Windows · Linux · macOS · iOS · Android
 
 ## Family — the four-repo pattern
 
-- [`UniCORE.Asterisk`](https://github.com/bryanunitek/UniCORE.Asterisk) — public on-prem-deployment-shape gift surface
+- [`UniCORE.Asterisk`](https://git.unitek-systems.com/UniCORE/UniCORE.Asterisk) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE.Asterisk)) — public on-prem-deployment-shape gift surface
 - `bryanunitek/UniSaaS.UniCORE.Asterisk` — public SaaS-deployment-shape gift surface ← **this repo**
 - `bryanunitek/UniCORE.Asterisk-Claw` (private) — on-prem-shape working repository
 - `bryanunitek/UniSaaS.UniCORE.Asterisk-Claw` (private) — SaaS-shape working repository
